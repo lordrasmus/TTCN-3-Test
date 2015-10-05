@@ -1,0 +1,60 @@
+{b:startSession}
+<html>
+
+<head>
+
+<script type="text/javascript" src="js.js" ></script>
+<script type="text/javascript" src="/mootools-core-1.4.1-full-nocompat.js"></script>
+
+</head>
+
+<body>
+
+<br><br>
+
+<h1>TTCN - Example</h1><br>
+
+
+
+<button onclick="init()">Init</button>
+<br>
+<br>
+
+
+
+
+<input type=text id=value readonly maxlength=8 value="{get:session;"value"}">
+
+<select id=operator onchange="store_operator()">
+<option value=1 {if:eq:session;"operator":1}selected{endif} >+</option>
+<option value=2 {if:eq:session;"operator":2}selected{endif} >-</option>
+<option value=3 {if:eq:session;"operator":3}selected{endif} >/</option>
+<option value=4 {if:eq:session;"operator":4}selected{endif} >*</option>
+</select>
+
+<input type=number id=operand min="-999" max="999" value="{get:session;"operand"}" onchange="store_operand()">
+
+<button onclick="calc_value()">=</button>
+
+<input type=number id=erg readonly  max="9999" value="{get:session;"erg"}" >
+
+
+<br>
+
+<button onclick="store_value()">Store</button>
+
+<h2>Debug</h2><br><br>
+
+<h3>Session Store</h3><br>
+{b:dumpSessionStore}<br>
+
+<h3>Python</h3><br>
+<a href=ttcn3.py>Code</a>
+
+<h3>SNMP</h3><br>
+<a href=snmpd.conf>Config</a>
+
+
+</body>
+
+</html>

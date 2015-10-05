@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ ****************************************************************************
+ *  (C) Copyright Testing Technologies, 2002.  All Rights Reserved.
+ *
+ *  All copies of this program, whether in whole or in part, and whether
+ *  modified or not, must display this and all other embedded copyright
+ *  and ownership notices in full.
+ *
+ *  See the file COPYRIGHT and LICENSE for details of redistribution
+ *  and use.
+ *
+ *  You should have received a copy of the COPYRIGHT and LICENSE file
+ *  along with this file; if not, write to the Testing Technologies,
+ *  Oranienburger Str. 65, 10117 Berlin, Germany.
+ *
+ *****************************************************************************
+ *
+ *  AUTHOR:      Stephan Pietsch
+ *  DATE:        July, 2002
+ *
+ *  REVISION INFO:
+ *	$Revision: 1.2 $ $Date: 2002/07/09 10:19:45 $
+ *	$Source: /net/ttech/cvs_root/TTtools/javasrc/com/testingtech/xml/preferences.dtd_1.0,v $
+ *
+ *****************************************************************************
+-->
+
+<!DOCTYPE dinolist PUBLIC "-//TESTINGTECH//DTD DINOLIST//1.0" "http://www.testingtech.com/TTCN-3_Example/dinolist.dtd">
+
+<dinolist>
+  <dinosaur>
+    <name>Argentinosaurus</name>
+    <len>35 m</len>
+    <mass>80 tonnes</mass>
+    <time>Albian to Cenomanian</time>
+    <place>Argentina</place>
+  </dinosaur>
+  
+  <dinosaur>
+    <name>Brachiosaurus</name>
+    <len>22 m</len>
+    <mass>30 tonnes</mass>
+    <time>Kimmeridgian</time>
+    <place>Portugal</place>
+  </dinosaur>
+
+  <dinosaur>
+    <name>Carcharodontosaurus</name>
+    <len>8 m to 14 m</len>
+    <mass>7 tonnes</mass>
+    <time>Albian to early Cenomanian</time>
+    <place>Egypt, Morocco, Tunisia, Algeria, Libya, Niger</place>
+  </dinosaur>
+  
+  <dinosaur>
+    <name>Giganotosaurus</name>
+    <len>13.5 m to 14.3 m</len>
+    <mass>6 tonnes to 8 tonnes</mass>
+    <time>Albian</time>
+    <place>Argentina</place>
+  </dinosaur>
+  
+  <dinosaur>
+    <name>Iguanodon</name>
+    <len>6 m to 10 m</len>
+    <mass>4.5 tonnes to 5.5 tonnes</mass>
+    <time>Barremian</time>
+    <place>Belgium, England, Germany, Spain, France</place>
+  </dinosaur>
+  
+  <dinosaur>
+    <name>Tyrannosaurus</name>
+    <len>10 m to 14 m</len>
+    <mass>4.5 tonnes to 7 tonnes</mass>
+    <time>late Maastrichtian</time>
+    <place>Alberta, Saskatchewan, Colorado, Montana, New Mexico, N. Dakota, S. Dakota, Wyoming</place>
+  </dinosaur>
+  
+  <dinosaur>
+    <name>Ceratosaurus</name>
+    <len>4.5 m to 6 m</len>
+    <mass>500 kg to 1 tonne</mass>
+    <time>Tithonian</time>
+    <place>Colorado, Utah</place>
+  </dinosaur>
+  
+</dinolist>
