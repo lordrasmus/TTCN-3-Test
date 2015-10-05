@@ -1,5 +1,12 @@
 
 
+	checkout nach LinuxMain/TTCN-3_Example
+
+
+cd libcwebui/LinuxMain
+git clone https://github.com/lordrasmus/TTCN-3-Test.git TTCN-3_Example
+
+
 	Webserver Main Config
 
 
